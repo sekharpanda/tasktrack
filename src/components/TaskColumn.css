@@ -1,0 +1,12 @@
+
+.task_column_heading {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Ensures the heading is on top of content */
+    z-index: 1; /* Ensures the heading stays on top */
+  }
+.task_column_icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}

@@ -1,0 +1,37 @@
+.app{
+
+  display: grid;
+  grid-template-rows:150px auto ;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.app_main{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
+
+
+
+.task_column {
+  width: 30%;
+  margin: 1%;
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .task_column {
+    width: 100%; /* Adjust the width to fit the entire width of the screen */
+    margin: 5px 0; /* Adjust margin for better spacing */
+  }
+}
+.task_from_bottom_line{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
